@@ -1,0 +1,19 @@
+# get http://localhost:8000/
+
+
+# get http://localhost:8000/products
+
+post http://localhost:8000/products 
+content-type: application/json
+
+{
+      "name": "น้ำดื่มตรา ปลาดาว",
+      "desc": "น้ำใช้ดื่ม",
+      "price": 600.00,
+      "quantity": 12,
+      "supplier_id": 4
+}
+
+
+
+
